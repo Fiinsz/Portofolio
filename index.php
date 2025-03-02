@@ -4,7 +4,7 @@ include 'koneksi.php';
 $result = mysqli_query($koneksi, "SELECT * FROM user");
 
 echo "<h2>Daftar User</h2>";
-echo "<a href='register.php'>Daftar User Baru</a> | <a href='login.php'>Login</a><br><br>";
+echo "<a href='pendaftaran.php'>Daftar User Baru</a> | <a href='login.php'>Login</a><br><br>";
 
 echo "<table border='1'>
 <tr>
